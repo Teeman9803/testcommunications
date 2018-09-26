@@ -8,12 +8,12 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #fab700;
+  background-color: #7fff21;
   color: #fff;
 }
 
 ::selection {
-  background-color: #fab700;
+  background-color: #7fff21;
   color: #fff;
 }
 
@@ -50,7 +50,8 @@
 }
 
 body {
-  color: #777777;
+  /*color: #777777;*/
+  color: #a7a7a7;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -119,20 +120,12 @@ a, a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  /*color: #222222;*/
+  color: #1d82ff;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
   font-weight: 600;
-}
-
-.h1, .h2, .h3,
-.h4, .h5, .h6 {
-  margin-bottom: 0;
-  margin-top: 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #222222;
 }
 
 h1, .h1 {
@@ -782,7 +775,7 @@ td, th {
 }
 
 b, sup, sub, u, del {
-  color: #fab700;
+  color: #7fff21;
 }
 
 h1 {
@@ -917,25 +910,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #fab700;
+  background: #1d82ff;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #fab700;
-  border: 1px solid #fab700;
+  color: #1d82ff;
+  border: 1px solid #1d82ff;
   background: #fff;
 }
 
 .genric-btn.primary-border {
-  color: #fab700;
-  border: 1px solid #fab700;
+  color: #1d82ff;
+  border: 1px solid #1d82ff;
   background: #fff;
 }
 
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #fab700;
+  background: #1d82ff;
   border: 1px solid transparent;
 }
 
@@ -1071,7 +1064,7 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #fab700;
+  border-left: 2px solid #7fff21;
 }
 
 .progress-table-wrap {
@@ -1195,7 +1188,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #fab700;
+  border: 3px solid #7fff21;
   background: #fff;
   top: 4px;
   left: 0;
@@ -1208,7 +1201,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #fab700;
+  color: #7fff21;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1221,7 +1214,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #fab700;
+  color: #7fff21;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1234,7 +1227,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #fab700;
+  color: #7fff21;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1306,7 +1299,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #fab700;
+  border: 1px solid #7fff21;
 }
 
 .single-input-accent {
@@ -1367,7 +1360,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #fab700;
+  background: #7fff21;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -1450,7 +1443,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-switch input:checked + label:before {
-  background: #fab700;
+  background: #7fff21;
 }
 
 .confirm-switch {
@@ -1799,12 +1792,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .default-select .nice-select .list .option.selected {
-  color: #fab700;
+  color: #7fff21;
   background: transparent;
 }
 
 .default-select .nice-select .list .option:hover {
-  color: #fab700;
+  color: #7fff21;
   background: transparent;
 }
 
@@ -1854,12 +1847,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-select .nice-select .list .option.selected {
-  color: #fab700;
+  color: #7fff21;
   background: transparent;
 }
 
 .form-select .nice-select .list .option:hover {
-  color: #fab700;
+  color: #7fff21;
   background: transparent;
 }
 
@@ -1878,7 +1871,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-top {
   font-size: 12px;
   padding: 8px;
-  background-color: #222222;
+  background-color: #1d82ff;
 }
 
 .header-top a {
@@ -1905,7 +1898,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-top .header-top-left a:hover i {
-  color: #fab700;
+  color: #7fff21;
 }
 
 .header-top .header-top-right {
@@ -1939,7 +1932,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-head-btn {
-  background: #fab700;
+  background: #7fff21;
   padding: 9px 26px;
 }
 
@@ -1982,12 +1975,13 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #000;
   padding-left: 10px;
-  border-left: 4px solid #fab700;
+  border-left: 4px solid #7fff21;
 }
 
 #header #logo img {
   padding: 0;
   margin: 0;
+  max-width: 246px;
 }
 
 @media (max-width: 768px) {
@@ -2070,7 +2064,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #222;
+  color: #a7a7a7;
   font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
@@ -2102,7 +2096,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #fab700;
+  color: #7fff21;
 }
 
 .nav-menu ul ul {
@@ -2200,7 +2194,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #fab700;
+  color: #7fff21;
 }
 
 #mobile-nav ul .menu-has-children li a {
@@ -2208,7 +2202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #fab700;
+  color: #7fff21;
 }
 
 #mobile-body-overly {
@@ -2259,7 +2253,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
-  background-color: #fab700;
+  background-color: #7fff21;
   line-height: 42px;
   padding-left: 30px;
   padding-right: 30px;
@@ -2313,11 +2307,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .primary-btn.white:hover {
   background: #fff;
-  color: #fab700;
+  color: #7fff21;
 }
 
 .primary-btn.white:hover span {
-  color: #fab700;
+  color: #7fff21;
 }
 
 .overlay {
@@ -2834,7 +2828,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-area {
   padding-top: 100px;
-  background-color: #04091e;
+  background-color: #1d82ff;
+  color: #fff;
 }
 
 .footer-area h6 {
@@ -2857,11 +2852,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-social a:hover i {
-  color: #1d82ff;
+  color: #7fff21;
 }
 
 .footer-social i {
-  color: #cccccc;
+  color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
