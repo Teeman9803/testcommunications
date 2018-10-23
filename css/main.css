@@ -2323,8 +2323,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  background: url(../img/front-banner-pic.jpeg) center;
   background-size: cover;
+}
+
+.banner-area.banner-contact{
+  background: url(../img/contact-us.jpeg) center;
 }
 
 @media (max-width: 767.98px) {
@@ -2554,6 +2558,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .home-about-area .home-about-right .form-select .nice-select .list .option {
   padding-left: 20px;
+}
+
+.home-client-area img {
+  opacity: .70;
+  display: block;
+  margin: 0 auto;
 }
 
 .single-service h4 {
@@ -3034,6 +3044,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .about-generic-area p {
   margin-bottom: 20px;
+}
+
+.about-our-team {
+  text-align: center;
 }
 
 .white-bg {
@@ -3527,8 +3541,37 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f9f9ff;
 }
 
+.list.services .list-item {
+  padding: 5px 0;
+}
+
+.tab-active a {
+  text-decoration: underline;
+}
+
+
 /*
 ################
                End Blog Details  Page style
 ################
 */
+
+/** Utility Classes **?
+
+ */
+
+.align-center {
+  text-align: center;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+.tab .sample-text-area {
+  padding-top: 0;
+}

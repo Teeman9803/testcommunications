@@ -372,6 +372,11 @@
   font-size: 20px;
 }
 
+.single-team-member p {
+  color: #1d82ff;
+  text-align: center;
+}
+
 .testimonial-area {
   background-color: #f9f9ff;
 }

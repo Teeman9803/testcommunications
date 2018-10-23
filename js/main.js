@@ -355,9 +355,17 @@ $(document).ready(function(){
 
 
 
+        $(document).ready(function () {
+            $('.services').on('click', 'a', function (e) {
+                var $this = $(this);
+                var el = $this.attr('href');
+                $('.services').find('a').not($this).parent().removeClass('tab-active');
+                $('.tab').not($this).removeClass('active');
+                $this.parent().addClass('tab-active');
+                $(el).addClass('active');
+                e.preventDefault();
 
-
-
-
+            })
+        });
 
  });
