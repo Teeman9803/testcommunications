@@ -2337,7 +2337,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area.banner-services{
-  background: url(../img/services-banner.jpeg) top center;
+  background: url(../img/services-banner.jpeg) center;
   background-size: cover;
 }
 
