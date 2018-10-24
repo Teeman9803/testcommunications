@@ -1981,7 +1981,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-width: 246px;
+  max-width: 200px;
 }
 
 @media (max-width: 768px) {
@@ -2328,7 +2328,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area.banner-contact{
-  background: url(../img/contact-us.jpeg) center;
+  background: url(../img/contact-us-banner.jpeg) center -180px;
+  background-size: cover;
+}
+
+.banner-area.banner-about{
+  background: url(../img/front-banner-pic-2.jpeg) center;
+  background-size: cover;
+}
+
+.banner-area.banner-services{
+  background: url(../img/services-banner-2.jpeg) center -250px;
+  background-size: cover;
+}
+
+.banner-area.banner-clients{
+  background: url(../img/client-banner.jpg) center -110px;
+  background-size: cover;
 }
 
 @media (max-width: 767.98px) {
@@ -2561,7 +2577,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-client-area img {
-  opacity: .70;
   display: block;
   margin: 0 auto;
 }
@@ -2619,7 +2634,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .faq-area {
-  background: url(../img/fact.jpg) center;
+  background: url(../img/projects-banner.jpeg) center;
   background-size: cover;
 }
 
@@ -3543,6 +3558,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .list.services .list-item {
   padding: 5px 0;
+}
+
+.list.services .list-group h6 {
+  color: #1d82ff;
+}
+
+.list.services .list-group:not(.first) {
+  margin-top: 10px;
 }
 
 .tab-active a {
