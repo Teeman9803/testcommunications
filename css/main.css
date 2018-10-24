@@ -1186,12 +1186,11 @@ h1, h2, h3, h4, h5, h6 {
 .unordered-list li:before {
   content: "";
   position: absolute;
-  width: 14px;
-  height: 14px;
-  border: 3px solid #7fff21;
-  background: #fff;
-  top: 4px;
-  left: 0;
+  width: 6px;
+  height: 6px;
+  background: #a7a7a7;
+  top: 8px;
+  left: 10px;
   border-radius: 50%;
 }
 
@@ -2338,12 +2337,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area.banner-services{
-  background: url(../img/services-banner-2.jpeg) center -250px;
+  background: url(../img/services-banner.jpeg) top center;
   background-size: cover;
 }
 
 .banner-area.banner-clients{
-  background: url(../img/client-banner.jpg) center -110px;
+  background: url(../img/client-banner.jpeg) center;
   background-size: cover;
 }
 
