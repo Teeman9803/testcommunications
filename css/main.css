@@ -3582,6 +3582,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
  */
 
+.error-page * {
+  margin: 15px 0;
+}
+
 .align-center {
   text-align: center;
 }
@@ -3596,4 +3600,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .tab .sample-text-area {
   padding-top: 0;
+}
+
+.bold-600 {
+    font-weight: 600;
 }
