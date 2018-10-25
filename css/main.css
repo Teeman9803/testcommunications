@@ -3605,3 +3605,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .bold-600 {
     font-weight: 600;
 }
+
+.error-page-area {
+  min-height: 570px;
+}
+
+.error-page-area .container {
+  margin-top: 85px;
+}
