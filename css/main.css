@@ -50,8 +50,7 @@
 }
 
 body {
-  /*color: #777777;*/
-  color: #a7a7a7;
+  color: #777777;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -2331,6 +2330,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
 }
 
+.banner-area.banner-career{
+  background: url(../img/careers-banner-2.jpg) center;
+  background-size: cover;
+}
+
 .banner-area.banner-about{
   background: url(../img/front-banner-pic-2.jpeg) center;
   background-size: cover;
@@ -2580,6 +2584,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 auto;
 }
 
+#feature h4 {
+  font-size: 24px;
+}
+
+#feature .services-btn {
+ font-size: 15px;
+}
+
 .single-service h4 {
   padding: 20px 0;
   -webkit-transition: all 0.3s ease 0s;
@@ -2587,6 +2599,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 
 .single-service:hover {
   cursor: pointer;
