@@ -103,6 +103,28 @@ a, a:focus, a:hover {
   padding: 60px;
 }
 
+.core-values > strong {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.ceo-signature {
+  margin-left: -60px;
+}
+
+.ft-base {
+  font-size: 16px;
+}
+
+.ft-md {
+  font-size: 18px;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+
 /**
  *  Typography
  *
