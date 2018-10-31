@@ -2363,7 +2363,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area.banner-services{
-  background: url(../img/services-banner-new.jpeg) top center;
+  background: url(../img/services-banner-new.jpeg) center;
   background-size: cover;
 }
 
