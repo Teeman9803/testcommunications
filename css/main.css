@@ -2343,7 +2343,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/front-banner-pic.jpeg) center;
+  background: url(../img/home-banner-new.jpeg) center;
   background-size: cover;
 }
 
@@ -2353,17 +2353,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area.banner-career{
-  background: url(../img/careers-banner-2.jpg) center;
+  background: url(../img/careers-banner-new.jpeg) center;
   background-size: cover;
 }
 
 .banner-area.banner-about{
-  background: url(../img/front-banner-pic-2.jpeg) center;
+  background: url(../img/about-us-banner-new.jpeg) top center;
   background-size: cover;
 }
 
 .banner-area.banner-services{
-  background: url(../img/services-banner.jpeg) center;
+  background: url(../img/services-banner-new.jpeg) top center;
   background-size: cover;
 }
 
