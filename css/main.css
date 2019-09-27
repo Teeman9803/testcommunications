@@ -3099,6 +3099,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
+.video-item video {
+  width: 100%;
+  height: auto;
+}
+
+.video-item .col-md-12 {
+  margin: 0 auto;
+  max-width: 75%;
+}
+
 .white-bg {
   background: #fff;
 }
@@ -3655,4 +3665,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: -35px;
   }
   
+}
+
+.lb-dataContainer {
+  margin-top: 30px;
 }
