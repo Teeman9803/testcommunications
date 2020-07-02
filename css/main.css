@@ -757,6 +757,10 @@ td, th {
   bottom: 0;
 }
 
+.container.video {
+  max-width: 100%;
+}
+
 .container.fullwidth {
   width: 100%;
 }
