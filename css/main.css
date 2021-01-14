@@ -759,6 +759,7 @@ td, th {
 
 .container.video {
   max-width: 100%;
+  background: #000;
 }
 
 .container.fullwidth {
